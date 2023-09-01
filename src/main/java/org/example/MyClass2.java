@@ -16,7 +16,7 @@ public class MyClass2
         System.out.print("Enter the number:");
         int number = input.nextInt();
 
-        if(number % 3 == 0)
+        if(number % divisor == 0)
         {
             System.out.println("The number is divisible by three.");
         }
