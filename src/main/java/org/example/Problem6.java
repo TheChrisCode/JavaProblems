@@ -18,6 +18,7 @@ public class Problem6
         {
             System.out.println("The number is divisible by three.");
         }
+            
         else
         {
             System.out.println("The number is not divisible by three.");
