@@ -1,22 +1,20 @@
 package org.example;
-
 import java.util.Scanner;
 
 public class Problem6
 {
-
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-        NumberDivisibleBy(input);
+        NumberDivisibleByThree(input);
     }
-    private static void NumberDivisibleBy(Scanner input)
+    
+    private static void NumberDivisibleByThree(Scanner input)
     {
-        int divisor = 3;
         System.out.print("Enter the number:");
         int number = input.nextInt();
 
-        if(number % divisor == 0)
+        if(number % 3 == 0)
         {
             System.out.println("The number is divisible by three.");
         }
